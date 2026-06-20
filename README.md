@@ -22,7 +22,7 @@ This project demonstrates a cloud-based SSH honeypot using Cowrie deployed on AW
 
 ## Sample Log
 Here is a screenshot of a real hacker trying to break into my honeypot:
-![Honeypot Log] (Whatsapp Image 2026-06-20 at 14.28.03)
+![Honeypot Log] (Whatsapp Image 2026-06-20 at 14.28.03.jpeg)
 ## How to Deploy
 1. Launch an AWS EC2 instance (Ubuntu 24.04, t3.micro)
 2. Clone Cowrie: `git clone https://github.com/cowrie/cowrie`
