@@ -50,10 +50,10 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
 - Python Development
 
 ### Test Result
-✅ Lambda function executed successfully with `Execution successful: Succeeded`
+ Lambda function executed successfully with `Execution successful: Succeeded`
 
 ### CloudWatch Logging
-✅ All login attempts were successfully logged to CloudWatch with timestamps, email addresses, and source IPs.
+ All login attempts were successfully logged to CloudWatch with timestamps, email addresses, and source IPs.
 
 **Sample Log Entry:**
 ```json
@@ -63,3 +63,37 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
     "password_hash": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
     "source_ip": "102.88.112.221"
 }
+
+
+## Project 3: Cloud SIEM (Wazuh) 
+
+### Overview
+Deployed a fully functional SIEM on AWS using Wazuh to monitor and detect security threats in real-time.
+
+### Architecture
+- **Wazuh Server**: AWS EC2 (Ubuntu 24.04)
+- **Wazuh Agents**: Log collection from remote machines
+- **Wazuh Dashboard**: Web-based monitoring and alerting
+
+### Results
+-  Successfully detected failed SSH login attempts
+-  MITRE ATT&CK mapping for security events
+-  Real-time alerting and monitoring
+
+### Sample Alerts
+- **Rule 5710**: Attempt to login using a non-existent user
+- **Tactic**: Credential Access, Lateral Movement
+
+### Dashboard Screenshot
+
+### 📸 Dashboard Screenshot
+
+Here is a screenshot of the Wazuh dashboard showing real security alerts:
+
+![Wazuh SIEM Dashboard](wazuh-alerts.png)
+
+**What you're seeing:**
+-  Failed SSH login attempts detected
+-  MITRE ATT&CK mapping (T1110.001 - Brute Force)
+-  Real-time alerting for security events
+
