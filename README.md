@@ -22,7 +22,7 @@ This project demonstrates a cloud-based SSH honeypot using Cowrie deployed on AW
 
 ## Sample Log
 Here is a screenshot of a real hacker trying to break into my honeypot:
-![Honeypot Log](WhatsApp Image 2026-06-20 at 14.28.03.jpeg)
+![Honeypot Log](WhatsApp%20Image%202026-06-20%20at%2014.28.03.jpeg)
 ## How to Deploy
 1. Launch an AWS EC2 instance (Ubuntu 24.04, t3.micro)
 2. Clone Cowrie: `git clone https://github.com/cowrie/cowrie`
@@ -64,6 +64,8 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
     "source_ip": "102.88.112.221"
 }
 
+
+---
 ## Project 3: Cloud SIEM (Wazuh) 
 
 ### Overview
