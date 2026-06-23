@@ -65,12 +65,12 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
 }
 
 
-### Project 3: Cloud SIEM (Wazuh) 
+## Project 3: Cloud SIEM (Wazuh) ☁️🛡️
 
 ### Overview
 Deployed a fully functional SIEM on AWS using Wazuh to monitor and detect security threats in real-time.
 
-### Architecture
+#### Architecture
 - **Wazuh Server**: AWS EC2 (Ubuntu 24.04)
 - **Wazuh Agents**: Log collection from remote machines
 - **Wazuh Dashboard**: Web-based monitoring and alerting
