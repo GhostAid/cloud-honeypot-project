@@ -83,16 +83,16 @@ Deployed a fully functional SIEM on AWS using Wazuh to monitor and detect securi
 - **Rule 5710**: Attempt to login using a non-existent user
 - **Tactic**: Credential Access, Lateral Movement
 
-### Dashboard Screenshot
+###  Dashboard Screenshots
 
-### 📸 Dashboard Screenshot
+Here are screenshots of the Wazuh dashboard showing real security alerts:
 
-Here is a screenshot of the Wazuh dashboard showing real security alerts:
+![Wazuh SIEM Dashboard](Screenshot 2026-06-23 135514.png)
 
-![Wazuh SIEM Dashboard](wazuh-alerts.png)
+*Figure 1: Security alerts showing failed SSH login attempts*
 
-**What you're seeing:**
--  Failed SSH login attempts detected
--  MITRE ATT&CK mapping (T1110.001 - Brute Force)
+![Wazuh SIEM Dashboard](Screenshot 2026-06-23 135621.png)
+
+*Figure 2: Agent status and security events overview*
 -  Real-time alerting for security events
 
