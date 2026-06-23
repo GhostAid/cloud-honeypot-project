@@ -64,6 +64,8 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
     "source_ip": "102.88.112.221"
 }
 
+
+---
 ## Project 3: Cloud SIEM (Wazuh) 
 
 ### Overview
