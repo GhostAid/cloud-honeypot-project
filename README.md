@@ -64,27 +64,26 @@ A serverless phishing simulation built on AWS using S3, Lambda, and CloudWatch.
     "source_ip": "102.88.112.221"
 }
 
-
-## Project 3: Cloud SIEM (Wazuh) ☁️🛡️
+## Project 3: Cloud SIEM (Wazuh) 
 
 ### Overview
 Deployed a fully functional SIEM on AWS using Wazuh to monitor and detect security threats in real-time.
 
-#### Architecture
+### Architecture
 - **Wazuh Server**: AWS EC2 (Ubuntu 24.04)
 - **Wazuh Agents**: Log collection from remote machines
 - **Wazuh Dashboard**: Web-based monitoring and alerting
 
 ### Results
--  Successfully detected failed SSH login attempts
--  MITRE ATT&CK mapping for security events
--  Real-time alerting and monitoring
+- ✅ Successfully detected failed SSH login attempts
+- ✅ MITRE ATT&CK mapping for security events
+- ✅ Real-time alerting and monitoring
 
 ### Sample Alerts
 - **Rule 5710**: Attempt to login using a non-existent user
 - **Tactic**: Credential Access, Lateral Movement
 
-###  Dashboard Screenshots
+### 📸 Dashboard Screenshots
 
 Here are screenshots of the Wazuh dashboard showing real security alerts:
 
@@ -95,5 +94,6 @@ Here are screenshots of the Wazuh dashboard showing real security alerts:
 ![Wazuh SIEM Dashboard](Screenshot 2026-06-23 135621.png)
 
 *Figure 2: Agent status and security events overview*
--  Real-time alerting for security events
+
+
 
